@@ -1,0 +1,35 @@
+######################################################################################
+#
+#   WizIO 2019 Georgi Angelov
+#
+#       https://github.com/Wiz-IO/
+#
+#       the.wizarda@gmail.com
+#
+######################################################################################
+
+
+######################################################################################
+# EDIT NEXT LINES
+######################################################################################
+PICO.build.compiler_path=C:\Users\HP\.platformio\packages\toolchain-gccarmnoneeabi\bin
+######################################################################################
+
+PICO.name=Raspberry Pi Pico PICO
+PICO.build.core=pico
+PICO.build.variant=raspberry-pi-pico
+PICO.build.board=raspberry-pi-pico
+PICO.build.mcu=-mcpu=cortex-m0plus -mthumb
+PICO.build.ldscript=memmap_default.ld
+PICO.build.boot=w25q080
+PICO.build.f_cpu=150000000L
+
+PICO.upload.maximum_size=2097152
+PICO.upload.maximum_data_size=262144
+PICO.upload.tool=msd
+PICO.upload.protocol=msd
+PICO.upload.use_1200bps_touch=false
+PICO.upload.wait_for_upload_port=false
+PICO.upload.native_usb=false
+PICO.upload.via_ssh=false
+
