@@ -1,0 +1,69 @@
+{
+  "packages": [
+    {
+      "name": "WizIO",
+      "maintainer": "WizIO",
+      "websiteURL": "https://github.com/Wiz-IO/wizio-arduino-pico",
+      "email": "the_wizarda@gmail.com",
+      "platforms": [
+        {
+          "name": "WizIO Pico",
+          "architecture": "pico",
+          "version": "1.0.0",
+          "category": "Contributed",
+          "url": "https://github.com/Wiz-IO/wizio-arduino-pico/zip/pico-core.1.0.0.zip",
+          "archiveFileName": "pico-core.1.0.0.zip",
+          "checksum": "",
+          "size": "74580",
+          "help": { "online": "https://github.com/Wiz-IO/wizio-arduino-pico" },
+          "boards": [
+            { "name": "raspberry-pico" }
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "WizIO",
+              "name": "pico-gcc",
+              "version": "1.0.0"              
+            },
+            {
+              "packager": "WizIO",
+              "name": "pico-tools",
+              "version": "1.0.0"
+            }            
+          ]
+        }
+      ],
+      "tools": [
+        {
+          "name": "pico-gcc",
+          "version": "1.0.0",
+          "systems": [ 
+            { 
+              "host": "i686-mingw32",
+              "archiveFileName": "azure_gcc.1.0.0.zip",
+              "url": "https://github.com/Wiz-IO/arduino/pico/master/azure_gcc.1.0.0.zip",
+              "size": "146",
+              "checksum": ""              
+            } 
+          ]
+        
+        },
+        
+        {
+          "name": "pico-tools",
+          "version": "1.0.0",
+          "systems": [ 
+            { 
+              "host": "i686-mingw32", 
+              "archiveFileName": "pico-tools.1.0.0.zip",
+              "url": "https://github.com/Wiz-IO/wizio-arduino-pico/zip/pico-tools.1.0.0.zip",
+              "size": "4633",
+              "checksum": ""                 
+            } 
+          ] 
+        }
+        
+      ]
+    }
+  ]
+}
