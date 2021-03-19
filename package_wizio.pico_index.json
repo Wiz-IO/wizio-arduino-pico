@@ -42,7 +42,7 @@
               "host": "i686-mingw32",
               "archiveFileName": "toolchain-gccarmnoneeabi-windows-1.70201.0.tar.gz",
               "url": "http://dl.platformio.org/packages/toolchain-gccarmnoneeabi-windows-1.70201.0.tar.gz",
-              "size": "",
+              "size": "123968110",
               "checksum": ""              
             } 
           ]
