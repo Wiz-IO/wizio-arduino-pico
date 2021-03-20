@@ -1,5 +1,3 @@
-# NOT READY, DO NOT INSTALL, CLONE, DOWNLOAD... 
-
 ## Raspberry Pi Pico RP2040 - Arduino IDE
 
 **A few words in the beginning**
