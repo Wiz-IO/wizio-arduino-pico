@@ -12,13 +12,17 @@
 
 ![pico](https://raw.githubusercontent.com/Wiz-IO/LIB/master/pico/a1.jpg)
 
-## Install Platform
+## Install
 _Note: be sure [**git**](https://git-scm.com/downloads) is installed_
 * Arduino -> File -> Preferences -> Additional Boards Manager URL
 * paste https://raw.githubusercontent.com/Wiz-IO/wizio-arduino-pico/main/package_wizio.pico_index.json
 * Arduino -> Tools -> Board -> Boards Manager -> Find: wizio -> WizIO Pico by .. Install
 * go to: C:\Users\ **USER** \AppData\Local\Arduino15\packages\WizIO\hardware\pico\1.0.0
-* Delete files in folder 1.0.0 and execute:
+* Delete install files in folder 1.0.0 and execute:
 * **[ git clone https://github.com/Wiz-IO/wizio-arduino-pico . ]** _with dot_
+
+## Update
+* go to: C:\Users\ **USER** \AppData\Local\Arduino15\packages\WizIO\hardware\pico\1.0.0
+* **[ git fetch ]**
 
 
