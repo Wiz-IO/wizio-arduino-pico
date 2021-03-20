@@ -11,3 +11,9 @@
 * _I am in Home-Office, it's hard for me to test hardwares as SPI, I2C ... etc_
 
 ![pico](https://raw.githubusercontent.com/Wiz-IO/LIB/master/pico/a1.jpg)
+
+## Install Platform
+_Note: be sure [**git**](https://git-scm.com/downloads) is installed_
+* Arduino -> File -> Preferences -> Additional Boards Manager URL
+* paste https://raw.githubusercontent.com/Wiz-IO/wizio-arduino-pico/main/package_wizio.pico_index.json
+* 
