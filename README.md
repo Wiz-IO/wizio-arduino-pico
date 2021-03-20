@@ -36,6 +36,8 @@ Connect Pico as Mass Storage Device - click **Compile** or **Upload** ...
 _The UF2 file exist in build folder_
 
 ***
+### [Raspberry Pi Pico Documentation](https://www.raspberrypi.org/documentation/rp2040/getting-started/)
+***
 
 ### STDIO ( only one will work )
 * Arduino -> Tools -> SDTDIO -> Select
@@ -43,7 +45,26 @@ _The UF2 file exist in build folder_
 * * PICO_STDIO_UART - if Serial is not used, uart0, GP0 & GP1
 * * PICO_STDIO_USB - tinyusb
 
-****
+### PIO ASM
+Use tools from pico-sdk or here there is [pre-compiled](https://github.com/Wiz-IO/tool-wizio-pico)
+
+***
+### CORES
+Arduino use CORE_0, The CORE_1 is free for use
+```cpp
+void loop1()
+{
+  Serial.println("core 1")
+  while (1)
+  {
+    Serial.println("loop 1")
+    delay(1000);
+  }
+}
+
+run_core( loop1 );
+
+```
 
 ### Examples ( from [screenshot](https://github.com/Wiz-IO/wizio-pico/blob/main/examples/arduino/pico-i2c-oled/src/main.cpp) ) & Others - TODO
 
