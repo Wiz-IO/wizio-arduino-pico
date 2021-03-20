@@ -30,6 +30,8 @@ _Note: be sure [**git**](https://git-scm.com/downloads) is installed_
 * execute **[ git pull ]**
 * or goto [Clone](https://github.com/Wiz-IO/wizio-arduino-pico/blob/master/README.md#clone)
 
+***
+
 ### STDIO ( only one will work )
 * Arduino -> Tools -> SDTDIO -> Select
 * * PICO_STDIO_ARDUINO - in code Serial.begin(115200, **true**); // true redirect printf to Serial
