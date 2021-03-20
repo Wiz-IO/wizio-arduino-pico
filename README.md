@@ -22,7 +22,7 @@ _Note: be sure [**git**](https://git-scm.com/downloads) is installed_
 * Now, go to folder C:\Users\ **USER** \AppData\Local\Arduino15\packages\WizIO\hardware\pico\1.0.0
 ### and clone this git
 * Delete files from \1.0.0 folder and execute
-* **[ git clone https://github.com/Wiz-IO/wizio-arduino-pico . ]** _with dot_
+* **[ git clone https://github.com/Wiz-IO/wizio-arduino-pico . ]** _<--- with the dot_
 * Arduino -> Tools -> Board -> Select board ... **and make fun**
 
 ### Update ( if need ... the project is a work in progress )
