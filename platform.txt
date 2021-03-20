@@ -11,6 +11,8 @@
 name=WizIO
 version=1.0.0
 
+#compiler.sdk.path={runtime.platform.path}/tools/sdk
+
 compiler.c.cmd=arm-none-eabi-gcc
 compiler.cpp.cmd=arm-none-eabi-g++
 compiler.c.elf.cmd=arm-none-eabi-g++
@@ -20,17 +22,13 @@ compiler.size.cmd=arm-none-eabi-size
 
 ###### Compile ######
 
-compiler.include="-I{build.core.path}/" "-I{build.core.path}/interface" "-I{build.core.path}/SDK/include" "-I{build.core.path}/SDK/boards" "-I{build.core.path}/SDK/lib/tinyusb/src"
+compiler.include="-I{build.core.path}/arduino" "-I{build.core.path}/api" "-I{build.core.path}/sdk/include" "-I{build.core.path}/sdk/lib/tinyusb/src"
 
 compiler.S.flags=-x assembler-with-cpp
 compiler.c.flags=
-
-compiler.gcc.c.flags=-Os -c -g -Wall -DARDUINO=200 -DPICO_ON_DEVICE=1 -DCFG_TUSB_MCU=OPT_MCU_RP2040 -DCFG_TUSB_OS=OPT_OS_PICO -fdata-sections -ffunction-sections -Wno-sign-compare -Wno-unused-function
-
+compiler.gcc.c.flags=-Os -c -g -Wall -DARDUINO=200 -DARDUINO_ARCH_MBED -D{build.stdio} -DPICO_ON_DEVICE=1 -DCFG_TUSB_MCU=OPT_MCU_RP2040 -DCFG_TUSB_OS=OPT_OS_PICO -fdata-sections -ffunction-sections -Wno-sign-compare -Wno-unused-function
 compiler.cpp.flags=-fno-exceptions -fno-non-call-exceptions -fno-rtti -fno-use-cxa-atexit
-
 compiler.c.elf.flags=-nostartfiles "-T{build.core.path}/SDK/pico/pico_standard_link/{build.ldscript}" -specs=nano.specs -u _printf_float -u _scanf_float -Xlinker --gc-sections -Wl,--gc-sections
-
 compiler.ar.flags=rcs
 compiler.objcopy.remove.flags=--strip-debug
 compiler.objcopy.bin.flags=-O binary
@@ -53,7 +51,7 @@ recipe.c.combine.pattern="{build.compiler_path}/{compiler.c.elf.cmd}" {build.mcu
 
 ###### Create image
 recipe.objcopy.bin.1.pattern="{build.compiler_path}\{compiler.objcopy.cmd}" -O binary "{build.path}\{build.project_name}.elf" "{build.path}\{build.project_name}.bin"
-recipe.objcopy.bin.2.pattern=cmd /C "{build.core.path}\uf2conv.py" "{build.path}\{build.project_name}.bin" -o "{build.path}\{build.project_name}.uf2"
+recipe.objcopy.bin.2.pattern=cmd /C "{build.core.path}\uf2conv.py" "{build.path}\{build.project_name}.bin" -o "{build.path}\{build.project_name}.uf2" -f 0xe48bff56
 
 
 ###### Compute size
@@ -64,10 +62,10 @@ recipe.size.regex.data=^(?:/.dram0/.data|/.dram0/.bss|/.noinit)/s+([0-9]+).*
 
 ###### Uploader ######
 
-tools.msd.path={build.core.path}
-tools.msd.cmd           =
-tools.msd.cmd.windows   =
+tools.msd.path=
+tools.msd.cmd=
+tools.msd.cmd.windows=
 tools.msd.upload.params.verbose=-vvvvvv
 tools.msd.upload.params.quiet=-q
-tools.msd.upload.pattern=cmd /C msd-upload.py "{build.path}\{build.project_name}.uf2" "c:\"
+tools.msd.upload.pattern=
 
