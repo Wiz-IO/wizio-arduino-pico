@@ -46,11 +46,11 @@ _The UF2 file exist in build folder_
 * * PICO_STDIO_USB - tinyusb
 
 ### PIO ASM
-Use tools from pico-sdk or here is [pre-compiled](https://github.com/Wiz-IO/tool-wizio-pico)
+Use tools from pico-sdk or here there is [pre-compiled](https://github.com/Wiz-IO/tool-wizio-pico)
 
 ***
-### CORE1
-is free for use
+### CORES
+Arduino use CORE_0, The CORE_1 is free for use
 ```cpp
 void loop1()
 {
