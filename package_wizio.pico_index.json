@@ -11,10 +11,10 @@
           "architecture": "pico",
           "category": "Contributed",          
           "version": "1.0.0",
-          "url": "https://github.com/Wiz-IO/wizio-arduino-pico/zip/pico-core.1.0.0.zip",
-          "archiveFileName": "",
+          "url": "https://github.com/Wiz-IO/wizio-arduino-pico/raw/main/pico-core.1.0.0.zip",
+          "archiveFileName": "pico-core.1.0.0.zip",
           "checksum": "",
-          "size": "",
+          "size": "146",
           "help": { "online": "https://github.com/Wiz-IO/wizio-arduino-pico" },
           "boards": [
             { "name": "raspberry-pico" }
