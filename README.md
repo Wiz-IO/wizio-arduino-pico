@@ -27,7 +27,7 @@ _Note: be sure [**git**](https://git-scm.com/downloads) is installed_
 
 ### Update ( if need ... the project is a work in progress )
 * Go to: C:\Users\ **USER** \AppData\Local\Arduino15\packages\WizIO\hardware\pico\1.0.0
-* **[ git pull ]**
+* execute **[ git pull ]**
 * or goto [Clone](https://github.com/Wiz-IO/wizio-arduino-pico/blob/master/README.md#clone)
 
 ### STDIO ( only one will work )
