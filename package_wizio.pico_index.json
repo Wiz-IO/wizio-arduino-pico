@@ -22,8 +22,8 @@
           "toolsDependencies": [
             {
               "packager": "WizIO",
-              "name": "gccarmnoneeabi",
-              "version": ""              
+              "name": "pico-gcc",
+              "version": "1.70201.0"              
             },
             {
               "packager": "WizIO",
@@ -35,15 +35,15 @@
       ],
       "tools": [
         {
-          "name": "gccarmnoneeabi",
-          "version": "",
+          "name": "pico-gcc",
+          "version": "1.70201.0",
           "systems": [ 
             { 
               "host": "i686-mingw32",
-              "archiveFileName": "toolchain-gccarmnoneeabi-windows-1.70201.0.tar.gz",
-              "url": "http://dl.platformio.org/packages/toolchain-gccarmnoneeabi-windows-1.70201.0.tar.gz",
-              "size": "123968110",
-              "checksum": "SHA-256:1771305e10a9880c15ccbe0ac37d664ab12db0c9c0bdd70ed3e488a1ba62c715"              
+              "url": "http://wizio.eu/arduino/bc66/gcc.1.70201.0.zip",
+              "archiveFileName": "gcc.1.70201.0.zip",              
+              "size": "106761211",
+              "checksum": ""              
             } 
           ]
         
@@ -51,7 +51,7 @@
         
         {
           "name": "pico-tools",
-          "version": "",
+          "version": "1.0.0",
           "systems": [ 
             { 
               "host": "i686-mingw32", 
