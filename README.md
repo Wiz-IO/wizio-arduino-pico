@@ -28,12 +28,12 @@ _Note: be sure [**git**](https://git-scm.com/downloads) is installed_
 ### Update ( if need ... the project is a work in progress )
 * Go to: C:\Users\ **USER** \AppData\Local\Arduino15\packages\WizIO\hardware\pico\1.0.0
 * execute **[ git pull ]**
-* or goto [Clone](https://github.com/Wiz-IO/wizio-arduino-pico/blob/master/README.md#clone) ( the best variant )
+* or goto point [clone this git](https://github.com/Wiz-IO/wizio-arduino-pico/blob/master/README.md#clone) ( the best variant )
 
 ***
 ### UPLOAD Sketch
 
-Connect Pico as Mass Storage Device - click Compile & Upload ...
+Connect Pico as Mass Storage Device - click **Compile** or **Upload** ...
 
 _UF2 exist in build folder_
 
