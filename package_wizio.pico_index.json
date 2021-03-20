@@ -28,7 +28,7 @@
             {
               "packager": "WizIO",
               "name": "pico-tools",
-              "version": ""
+              "version": "1.0.0"
             }            
           ]
         }
@@ -55,9 +55,9 @@
           "systems": [ 
             { 
               "host": "i686-mingw32", 
-              "archiveFileName": "",
-              "url": "",
-              "size": "",
+              "archiveFileName": "pico-tool.1.0.0",
+              "url": "https://github.com/Wiz-IO/wizio-arduino-pico/raw/main/pico-tool.1.0.0.zip",
+              "size": "146",
               "checksum": ""                 
             } 
           ] 
