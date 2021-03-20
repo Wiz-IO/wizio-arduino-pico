@@ -5,7 +5,7 @@
 * This project not an official platform and is based on [**pico-sdk**](https://github.com/raspberrypi/pico-sdk)
 * **Systems support**
 * * windows
-* * linux & darwin - **later ... I need 300Mb free space for compilers***
+* * linux & darwin - **LATER** ... I need 300 Mb free space for compilers
 
 **Notes**
 * _I am in Home-Office, it's hard for me to test hardwares as SPI, I2C ... etc_
