@@ -9,8 +9,8 @@
         {
           "name": "WizIO Pico",
           "architecture": "pico",
+          "category": "Contributed",          
           "version": "",
-          "category": "Contributed",
           "url": "",
           "archiveFileName": "",
           "checksum": "",
