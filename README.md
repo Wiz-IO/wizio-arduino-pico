@@ -6,7 +6,7 @@
 * **Version: 1.0.0** The project is a work in progress and is **very beta version** - there may be bugs...
 * This project not an official platform and is based on [**pico-sdk**](https://github.com/raspberrypi/pico-sdk)
 * **Systems support**
-* * **windows**
+* * **windows** ( for now )
 * * linux & darwin **LATER** ... _I need 300 Mb free space for compilers_
 
 **Notes**
