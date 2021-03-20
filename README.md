@@ -19,16 +19,16 @@ _Note: be sure [**git**](https://git-scm.com/downloads) is installed_
 * Arduino -> File -> Preferences -> Additional Boards Manager URL
 * paste https://raw.githubusercontent.com/Wiz-IO/wizio-arduino-pico/main/package_wizio.pico_index.json
 * Arduino -> Tools -> Board -> Boards Manager -> Find: WizIO Pico by ... Install
-* Now go to: C:\Users\ **USER** \AppData\Local\Arduino15\packages\WizIO\hardware\pico\1.0.0
+* Now, go to folder C:\Users\ **USER** \AppData\Local\Arduino15\packages\WizIO\hardware\pico\1.0.0
 ### Clone
-* Delete install files from \1.0.0 folder and execute
+* Delete files from \1.0.0 folder and execute
 * **[ git clone https://github.com/Wiz-IO/wizio-arduino-pico . ]** _with dot_
-* Arduino -> Tools -> Board -> Select board ... and make fun
+* Arduino -> Tools -> Board -> Select board ... **and make fun**
 
 ### Update ( if need ... the project is a work in progress )
 * Go to: C:\Users\ **USER** \AppData\Local\Arduino15\packages\WizIO\hardware\pico\1.0.0
 * **[ git pull ]**
-* or goto [Clone]()
+* or goto [Clone](https://github.com/Wiz-IO/wizio-arduino-pico/blob/master/README.md#clone)
 
 ### STDIO ( only one will work )
 * Arduino -> Tools -> SDTDIO -> Select
@@ -36,10 +36,11 @@ _Note: be sure [**git**](https://git-scm.com/downloads) is installed_
 * * PICO_STDIO_UART - if Serial is not used
 * * PICO_STDIO_USB - tinyusb
 
-### Examples TODO
+### Examples & Others - TODO
 
 ***
 
->If you want to help / support:   
+If you want to help / support:  
+
 [![paypal](https://www.paypalobjects.com/en_US/i/btn/btn_donate_SM.gif)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=ESUP9LCZMZTD6)
 
