@@ -31,6 +31,11 @@ _Note: be sure [**git**](https://git-scm.com/downloads) is installed_
 * or goto [Clone](https://github.com/Wiz-IO/wizio-arduino-pico/blob/master/README.md#clone)
 
 ***
+### UPLOAD Sketch
+
+Connect Pico as Mass Storage Device - click Compile & Upload ...
+
+_UF2 exist in build folder_
 
 ### STDIO ( only one will work )
 * Arduino -> Tools -> SDTDIO -> Select
