@@ -23,7 +23,7 @@
             {
               "packager": "WizIO",
               "name": "gccarmnoneeabi",
-              "version": "1.70201.0"              
+              "version": "*"              
             },
             {
               "packager": "WizIO",
