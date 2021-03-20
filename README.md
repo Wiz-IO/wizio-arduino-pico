@@ -30,8 +30,8 @@ _Note: be sure [**git**](https://git-scm.com/downloads) is installed_
 * or delete all in \1.0.0 and [ git clone https://github.com/Wiz-IO/wizio-arduino-pico . ]
 
 ### STDIO ( only one will work )
-* Arduino -> Tools -> SDTDIO
-* * PICO_STDIO_ARDUINO in code Serial.begin(115200, true); // true redirect stdio to Serial
+* Arduino -> Tools -> SDTDIO -> Select
+* * PICO_STDIO_ARDUINO - in code Serial.begin(115200, **true**); // true redirect printf to Serial
 * * PICO_STDIO_UART - if Serial is not used
 * * PICO_STDIO_USB - tinyusb
 
