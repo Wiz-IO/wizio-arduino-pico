@@ -37,16 +37,19 @@ Connect Pico as Mass Storage Device - click **Compile** or **Upload** ...
 
 _The UF2 file exist in build folder_
 
+***
+
 ### STDIO ( only one will work )
 * Arduino -> Tools -> SDTDIO -> Select
 * * PICO_STDIO_ARDUINO - in code Serial.begin(115200, **true**); // true redirect printf to Serial
 * * PICO_STDIO_UART - if Serial is not used, uart0, GP0 & GP1
 * * PICO_STDIO_USB - tinyusb
 
+****
+
 ### Examples ( from [screenshot](https://github.com/Wiz-IO/wizio-pico/blob/main/examples/arduino/pico-i2c-oled/src/main.cpp) ) & Others - TODO
 
 <img src="https://www.raspberrypi.org/documentation/pico/getting-started/static/15243f1ffd3b8ee646a1708bf4c0e866/Pico-R3-Pinout.svg" alt="Raspberry Pi Pico pin out diagram">
-
 
 ***
 
