@@ -64,10 +64,10 @@ recipe.size.regex.data=^(?:/.dram0/.data|/.dram0/.bss|/.noinit)/s+([0-9]+).*
 
 ###### Uploader ######
 
-tools.msd.cmd=msd-upload.py
 tools.msd.path={build.core.path}
-tools.msd.cmd.windows=cmd /C "{build.core.path}\msd-upload.py"
+tools.msd.cmd           =
+tools.msd.cmd.windows   =
 tools.msd.upload.params.verbose=-vvvvvv
 tools.msd.upload.params.quiet=-q
-tools.msd.upload.pattern="{cmd}" "{build.path}\{build.project_name}.uf2" "c:\"
+tools.msd.upload.pattern=cmd /C msd-upload.py "{build.path}\{build.project_name}.uf2" "c:\"
 
