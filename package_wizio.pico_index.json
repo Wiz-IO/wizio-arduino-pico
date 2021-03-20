@@ -36,7 +36,7 @@
       "tools": [
         {
           "name": "gccarmnoneeabi",
-          "version": "1.70201.0",
+          "version": "",
           "systems": [ 
             { 
               "host": "i686-mingw32",
