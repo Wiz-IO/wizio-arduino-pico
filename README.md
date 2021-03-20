@@ -22,10 +22,21 @@ _Note: be sure [**git**](https://git-scm.com/downloads) is installed_
 * go to: C:\Users\ **USER** \AppData\Local\Arduino15\packages\WizIO\hardware\pico\1.0.0
 * Delete install files in folder \1.0.0 and execute:
 * **[ git clone https://github.com/Wiz-IO/wizio-arduino-pico . ]** _with dot_
+* Arduino -> Tools -> Board -> Select board ... and make fun
 
 ## Update ( if need )
 * go to: C:\Users\ **USER** \AppData\Local\Arduino15\packages\WizIO\hardware\pico\1.0.0
 * **[ git pull ]**
 * or delete all in \1.0.0 and [ git clone https://github.com/Wiz-IO/wizio-arduino-pico . ]
 
+### STDIO ( only one will work )
+* Arduino -> Tools -> SDTDIO
+* * PICO_STDIO_ARDUINO in code Serial.begin(115200, true); // true redirect stdio to Serial
+* * PICO_STDIO_UART - if Serial is not used
+* * PICO_STDIO_USB - tinyusb
+
+### Examples TODO
+
+>If you want to help / support:   
+[![paypal](https://www.paypalobjects.com/en_US/i/btn/btn_donate_SM.gif)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=ESUP9LCZMZTD6)
 
