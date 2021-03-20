@@ -18,16 +18,17 @@
 _Note: be sure [**git**](https://git-scm.com/downloads) is installed_
 * Arduino -> File -> Preferences -> Additional Boards Manager URL
 * paste https://raw.githubusercontent.com/Wiz-IO/wizio-arduino-pico/main/package_wizio.pico_index.json
-* Arduino -> Tools -> Board -> Boards Manager -> Find: wizio -> WizIO Pico by .. Install
-* go to: C:\Users\ **USER** \AppData\Local\Arduino15\packages\WizIO\hardware\pico\1.0.0
-* Delete install files in folder \1.0.0 and execute:
+* Arduino -> Tools -> Board -> Boards Manager -> Find: WizIO Pico by ... Install
+* Now go to: C:\Users\ **USER** \AppData\Local\Arduino15\packages\WizIO\hardware\pico\1.0.0
+### Clone
+* Delete install files from \1.0.0 folder and execute
 * **[ git clone https://github.com/Wiz-IO/wizio-arduino-pico . ]** _with dot_
 * Arduino -> Tools -> Board -> Select board ... and make fun
 
-## Update ( if need )
-* go to: C:\Users\ **USER** \AppData\Local\Arduino15\packages\WizIO\hardware\pico\1.0.0
+## Update ( if need ... the project is a work in progress )
+* Go to: C:\Users\ **USER** \AppData\Local\Arduino15\packages\WizIO\hardware\pico\1.0.0
 * **[ git pull ]**
-* or delete all in \1.0.0 and [ git clone https://github.com/Wiz-IO/wizio-arduino-pico . ]
+* or delete all from folder \1.0.0 ... execute [ git clone https://github.com/Wiz-IO/wizio-arduino-pico . ]
 
 ### STDIO ( only one will work )
 * Arduino -> Tools -> SDTDIO -> Select
