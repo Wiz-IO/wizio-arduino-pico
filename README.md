@@ -24,5 +24,6 @@ _Note: be sure [**git**](https://git-scm.com/downloads) is installed_
 ## Update
 * go to: C:\Users\ **USER** \AppData\Local\Arduino15\packages\WizIO\hardware\pico\1.0.0
 * **[ git pull ]**
+* or delete all and [ git clone url . ]
 
 
