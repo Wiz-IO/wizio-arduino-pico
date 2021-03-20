@@ -55,7 +55,7 @@
           "systems": [ 
             { 
               "host": "i686-mingw32", 
-              "archiveFileName": "pico-tool.1.0.0",
+              "archiveFileName": "pico-tool.1.0.0.zip",
               "url": "https://github.com/Wiz-IO/wizio-arduino-pico/raw/main/pico-tool.1.0.0.zip",
               "size": "146",
               "checksum": ""                 
