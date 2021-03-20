@@ -9,7 +9,7 @@
         {
           "name": "WizIO Pico",
           "architecture": "pico",
-          "version": "1.0.0",
+          "version": "",
           "category": "Contributed",
           "url": "https://github.com/Wiz-IO/wizio-arduino-pico/zip/pico-core.1.0.0.zip",
           "archiveFileName": "pico-core.1.0.0.zip",
@@ -28,7 +28,7 @@
             {
               "packager": "WizIO",
               "name": "pico-tools",
-              "version": "1.0.0"
+              "version": ""
             }            
           ]
         }
@@ -51,7 +51,7 @@
         
         {
           "name": "pico-tools",
-          "version": "1.0.0",
+          "version": "",
           "systems": [ 
             { 
               "host": "i686-mingw32", 
