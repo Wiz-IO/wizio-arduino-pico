@@ -14,7 +14,7 @@
 
 ![pico](https://raw.githubusercontent.com/Wiz-IO/LIB/master/pico/a1.jpg)
 
-## Install
+# Install
 _Note: be sure [**git**](https://git-scm.com/downloads) is installed_
 * Arduino -> File -> Preferences -> Additional Boards Manager URL
 * paste https://raw.githubusercontent.com/Wiz-IO/wizio-arduino-pico/main/package_wizio.pico_index.json
@@ -25,10 +25,10 @@ _Note: be sure [**git**](https://git-scm.com/downloads) is installed_
 * **[ git clone https://github.com/Wiz-IO/wizio-arduino-pico . ]** _with dot_
 * Arduino -> Tools -> Board -> Select board ... and make fun
 
-## Update ( if need ... the project is a work in progress )
+### Update ( if need ... the project is a work in progress )
 * Go to: C:\Users\ **USER** \AppData\Local\Arduino15\packages\WizIO\hardware\pico\1.0.0
 * **[ git pull ]**
-* or delete all from folder \1.0.0 ... execute [ git clone https://github.com/Wiz-IO/wizio-arduino-pico . ]
+* or goto [Clone]()
 
 ### STDIO ( only one will work )
 * Arduino -> Tools -> SDTDIO -> Select
