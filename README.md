@@ -16,4 +16,5 @@
 _Note: be sure [**git**](https://git-scm.com/downloads) is installed_
 * Arduino -> File -> Preferences -> Additional Boards Manager URL
 * paste https://raw.githubusercontent.com/Wiz-IO/wizio-arduino-pico/main/package_wizio.pico_index.json
-* 
+* go to: C:\Users\ **USER** \AppData\Local\Arduino15\packages\WizIO\hardware\pico\1.0.0
+* **git clone** https://github.com/Wiz-IO/wizio-arduino-pico
