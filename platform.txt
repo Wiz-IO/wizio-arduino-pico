@@ -11,8 +11,6 @@
 name=WizIO
 version=1.0.0
 
-#compiler.sdk.path={runtime.platform.path}/tools/sdk
-
 compiler.c.cmd=arm-none-eabi-gcc
 compiler.cpp.cmd=arm-none-eabi-g++
 compiler.c.elf.cmd=arm-none-eabi-g++
