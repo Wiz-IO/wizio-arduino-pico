@@ -7,18 +7,14 @@
 #       the.wizarda@gmail.com
 #
 ######################################################################################
-
-
-######################################################################################
-# EDIT NEXT LINES
-######################################################################################
-PICO.build.compiler_path=C:\Users\HP\.platformio\packages\toolchain-gccarmnoneeabi\bin
+menu.stdio=STDIO
 ######################################################################################
 
 PICO.name=Raspberry Pi Pico PICO
 PICO.build.core=pico
 PICO.build.variant=raspberry-pi-pico
 PICO.build.board=raspberry-pi-pico
+PICO.build.compiler_path={runtime.tools.gccarmnoneeabi.path}\bin
 PICO.build.mcu=-mcpu=cortex-m0plus -mthumb
 PICO.build.ldscript=memmap_default.ld
 PICO.build.boot=w25q080
@@ -33,3 +29,9 @@ PICO.upload.wait_for_upload_port=false
 PICO.upload.native_usb=false
 PICO.upload.via_ssh=false
 
+PICO.menu.stdio.A=PICO_STDIO_ARDUINO
+PICO.menu.stdio.A.build.stdio=PICO_STDIO_ARDUINO
+PICO.menu.stdio.B=PICO_STDIO_UART
+PICO.menu.stdio.B.build.stdio=PICO_STDIO_UART
+PICO.menu.stdio.C=PICO_STDIO_USB
+PICO.menu.stdio.C.build.stdio=PICO_STDIO_USB
