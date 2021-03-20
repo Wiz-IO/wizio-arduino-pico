@@ -43,7 +43,7 @@
               "archiveFileName": "toolchain-gccarmnoneeabi-windows-1.70201.0.tar.gz",
               "url": "http://dl.platformio.org/packages/toolchain-gccarmnoneeabi-windows-1.70201.0.tar.gz",
               "size": "123968110",
-              "checksum": ""              
+              "checksum": "SHA-256:1771305e10a9880c15ccbe0ac37d664ab12db0c9c0bdd70ed3e488a1ba62c715"              
             } 
           ]
         
