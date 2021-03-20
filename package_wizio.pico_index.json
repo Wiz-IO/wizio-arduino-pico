@@ -22,7 +22,7 @@
           "toolsDependencies": [
             {
               "packager": "WizIO",
-              "name": "pico-gcc",
+              "name": "gccarmnoneeabi",
               "version": "1.70201.0"              
             },
             {
@@ -35,7 +35,7 @@
       ],
       "tools": [
         {
-          "name": "pico-gcc",
+          "name": "gccarmnoneeabi",
           "version": "1.70201.0",
           "systems": [ 
             { 
