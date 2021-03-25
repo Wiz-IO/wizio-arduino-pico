@@ -54,8 +54,8 @@ recipe.objcopy.bin.2.pattern=cmd /C "{build.core.path}\uf2conv.py" "{build.path}
 
 ###### Compute size
 recipe.size.pattern="{build.compiler_path}/{compiler.size.cmd}" -A "{build.path}/{build.project_name}.elf"
-recipe.size.regex=^(?:/.iram0/.text|/.iram0/.vectors|/.dram0/.data|/.flash/.text|/.flash/.rodata|)/s+([0-9]+).*
-recipe.size.regex.data=^(?:/.dram0/.data|/.dram0/.bss|/.noinit)/s+([0-9]+).*
+recipe.size.regex=^(?:\.text|\.data|\.boot2)\s+([0-9]+).*
+recipe.size.regex.data=^(?:\.data|\.bss|\.noinit)\s+([0-9]+).*
 
 
 ###### Uploader ######
